@@ -18,6 +18,8 @@
             </div>
         </div>
     </div>
+
+    <Corner link="https://github.com/Eshnek/weather" class="fixed top-0 right-0 w-16 z-50" />
 </template>
 
 <script lang="ts">

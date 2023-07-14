@@ -11,6 +11,13 @@ const config: NuxtConfig = {
     css: [
         '~/assets/css/tailwind.css'
     ],
+    build: {
+        loaders: {
+            scss: {
+                implementation: require('sass'),
+            }
+        }
+    },
     postcss: {
         plugins: {
             'tailwindcss/nesting': {},
