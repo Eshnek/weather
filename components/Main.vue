@@ -1,5 +1,5 @@
 <template>
-    <div class="flex gap-8 justify-center items-center w-screen h-screen min-w-max bg-zinc-950">
+    <div class="flex p-4 gap-8 justify-center items-center w-screen h-screen min-w-max bg-zinc-950">
         <!-- This seems to be necessary to get the styles to exist properly -->
         <div class="hidden border-orange-100" />
         <div class="hidden border-orange-200" />
